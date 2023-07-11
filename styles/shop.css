@@ -1,69 +1,254 @@
-/* common shared style */
-body {
-    font-family: 'Lato', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-}
+ 
+ body {
+     font-family: 'Lato', sans-serif;
+     font-family: 'Open Sans', sans-serif;
+ }
 
 
 
-/* Header related style */
+ 
 
-.banner {
-    /* background: rgba(228, 85, 116, 0.1); */
-    background: #E554731A 10%;
-    display: flex;
-    background-repeat: no-repeat;
-    background-position: bottom right;
+ .banner {
+     background: #E554731A;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-repeat: no-repeat;
 
-}
+ }
 
-.profile-pic {
-    width: 50%;
-     
-     
-}
+ .profile-pic {
+     width: 65%;
+ }
 
-.banner-information {
-    margin-left: 240px;
-    width: 50%;
-}
+ .pic-area {
+     width: 50%;
+ }
 
-.banner-title {
-    font-size: 80px;
-    font-weight: 800;
+ .banner-information {
+     margin-left: 200px;
+     width: 50%;
+ }
 
-
-}
-
-.banner-description {
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
-    font-weight: 400;
-}
+ .banner-title {
+     font-size: 50px;
+     font-weight: 800;
 
 
+ }
 
-.btn-primary {
+ .banner-description {
+     color: rgba(39, 39, 39, 0.60);
+     font-size: 18px;
+     font-weight: 400;
+ }
 
-    padding: 20px 43px;
-    font-size: 20px;
-    font-weight: 700;
-    border-radius: 8px;
-    border: 0;
-    background: #E55473;
-    color: #FFFFFF;
 
-}
 
-/* about section style */
-.about {
-    background: #FFF;
-    color: #272727;
-    text-align: center;
-    font-family: Lato;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+ .btn-primary {
+     padding: 15px 30px;
+     font-size: 20px;
+     font-weight: 700;
+     border-radius: 8px;
+     border: 0;
+     background: #E55473;
+     color: #FFFFFF;
 
-}
+ }
+ 
+ .section-description {
+     text-align: center;
+ }
+
+ .section-title {
+     text-align: center;
+     font-size: 40px;
+     font-weight: 800;
+
+ }
+
+ .flower-feature {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     margin-bottom: 100px;
+ }
+
+ .flower-1 {
+     display: flex;
+     align-items: last baseline;
+     justify-content: center;
+     background: #A7216226;
+     margin-right: 20px;
+     border-radius: 50% 50% 0 0;
+     width: 400px;
+     height: 500px;
+ }
+
+ .flower-2 {
+     display: flex;
+     align-items: last baseline;
+     justify-content: center;
+     background: #0597A026;
+     margin-right: 20px;
+     border-radius: 50% 50% 0 0;
+     width: 400px;
+     height: 500px;
+
+ }
+
+ .flower-3 {
+     display: flex;
+     align-items: last baseline;
+     justify-content: center;
+     background: #477D1126;
+     margin-right: 20px;
+     border-radius: 50% 50% 0 0;
+     width: 400px;
+     height: 500px;
+
+ }
+
+
+ .flowers {
+     display: flex;
+     justify-content: center;
+ }
+
+ .img {
+     width: 70%;
+ }
+
+ .text-primary {
+     align-items: center;
+
+ }
+
+ .service {
+     display: flex;
+     justify-content: center;
+     margin-top: 100px;
+     width: 70%;
+     margin: 0 auto;
+     margin-bottom: 100px;
+     background-color: #2727270D;
+ }
+
+ .support-service {
+     display: flex;
+     justify-content: center;
+
+
+ }
+
+ .support-primary {
+     padding: 80px;
+     text-align: center;
+ }
+
+ 
+ .sign-up {
+     background: #E554731A;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-repeat: no-repeat;
+ }
+
+  
+ .instagram-description {
+     text-align: center;
+ }
+
+ .instagram-title {
+     text-align: center;
+     font-size: 40px;
+     font-weight: 800;
+
+ }
+
+ .instagram-feature {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 100px;
+ }
+
+ .instagram-feature img {
+     height: 300px;
+     width: 300px;
+     margin-right: 10px;
+ }
+
+ .signup-picture {
+     width: 25%;
+ }
+
+ .sign-information {
+     margin-left: 200px;
+     width: 50%;
+     text-align: center;
+ }
+
+ .shopping {
+     background-image: url('../flower_asset/Rectangle\ 9.png');
+     width: 70%;
+     margin: 0 auto;
+     display: flex;
+     justify-content: center;
+     border-radius: 8px;
+     text-align: center;
+     margin-bottom: 100px;
+
+
+ }
+
+ .shopping-content {
+     padding: 20px;
+
+ }
+
+ .shopping-content input {
+     height: 30px;
+     padding: 9px;
+     width: 500px;
+     border-color: #FFFFFF;
+     border-radius: 8px;
+     margin-right: 10px;
+ }
+
+ .last-section {
+     background-color: black;
+     color: #FFFFFF;
+     height: 300px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .primary {
+     color: #E55473;
+ }
+
+ .footer-title {
+     color: white;
+     font-size: 48px;
+     font-weight: 800;
+     text-align: center;
+ }
+
+ .footer-description {
+     color: rgba(255, 255, 255, 0.90);
+     text-align: center;
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 30px;
+ }
+
+ .footer-final {
+     color: rgba(255, 255, 255, 0.40);
+     text-align: center; 
+     font-size: 16px; 
+     font-weight: 400;
+ }
